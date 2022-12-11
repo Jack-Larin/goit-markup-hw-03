@@ -197,10 +197,6 @@ body{
     border: none;
 }
 
-/* .btn-hero{
-    margin-bottom: 192px;
-} */
-
 
 /* benefits */
 
@@ -229,6 +225,11 @@ body{
 
 
 /* WORK */
+
+
+.work{
+    padding-top: 0px;
+}
 
 .h2-work{
     text-align: center;
@@ -341,6 +342,7 @@ body{
 .btn-filter:focus{
     color: var(--white);
     background-color: var(--iris);
+    border: 1px solid transparent;
 }
 
 .feature-img{
@@ -374,7 +376,7 @@ body{
     margin-bottom: 48px;
 }
 
-.img-border .h3-tittle{
+.img-txt .h3-tittle{
     margin-bottom: 8px;
 }
 
